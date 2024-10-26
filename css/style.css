@@ -1,16 +1,16 @@
 .name {
     font-size: 1.5rem;
     color: white;
-    background: rgb(255, 193, 193);
+    background: #40A67F;
     margin-top: 5px;
     margin-bottom: 5px;
-    border: 10px solid rgb(255, 193, 193);
+    border: 10px solid #40A67F;
     border-radius: 10px;
     height: fit-content;
     width: fit-content;
 }
 
-.movie {
+/*.movie {
     font-size: medium;
     background: rgb(122, 122, 255);
     color: white;
@@ -19,9 +19,9 @@
     border-radius: 3px;
     height: fit-content;
     width: fit-content;
-}
+}*/
 
-.song {
+/*.song {
     font-size: 120%;
     margin: 2px;
     background: rgb(255, 138, 138);
@@ -30,19 +30,20 @@
     border-radius: 3px;
     height: fit-content;
     width: fit-content;
-}
+}*/
 
 .main-text {
     font-size: 120%;
-    background: #8A776A; /*rgb(255, 163, 163);*/
+    padding: 6px;
+    background: #A65F40; /*rgb(255, 163, 163);*/
     color: white;
-    border: 3px 8A776A #8A776A;
+    border: 3px #A65F40;
     border-radius: 8px;
 }
 
 .content {
     display: flex;
-    margin: 10px;
+    /*margin: 10px;*/
 }
 
 .content-left {
@@ -50,6 +51,7 @@
     border: 5px solid #c4ffe9; 
     border-radius: 10px;
     margin-right: 15px;
+    margin-top: 40px;
     text-align: justify;
     padding-left: 5px;
     padding-top: 5px;
@@ -59,6 +61,7 @@
     height: fit-content;
     width: fit-content;
     background: #c4ffe9;
+    margin-top: 40px;
     border: 5px solid #c4ffe9; 
     border-radius: 10px;
     margin-right: 5px;
@@ -71,4 +74,149 @@
     border-radius: 5px;  
     width: fit-content;
     height: fit-content;
+}
+
+.list {
+    font-size: 120%;
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    background-color: #BFA89E;
+    margin: 7px;
+    border: 2px dashed white;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.contacts {
+    font-size: 120%;
+    color: white;
+    display: flex;
+}
+
+.contact {
+    height: 20px;
+    width: 20px;
+    border: 0px;
+    border-radius: 3px;
+}
+
+.contacnts {
+    height: fit-content;
+    width: fit-content;
+    color: white;
+    background-color: #40A67F;
+    border: 5px solid #40A67F;
+    border-radius: 3px;    
+}
+
+/*.header {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    
+    flex-direction: row;
+    position: fixed;
+    background-color: #4176A6;
+}*/
+
+.item {
+    font-size: 120%;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    padding: 5px;   
+}
+
+.header {
+    background-color: #40A67F;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    border: 5px solid #40A67F;
+    border-radius: 10px;
+}
+
+.container {
+    background-color: black;
+}
+
+.block {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.billy {
+    display: block;
+    height: 200px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.container-2 {
+    display: flex;
+    background-color: yellow;
+    height: 300px;
+}
+
+.block-2 {
+    background-color: black;
+    height: 200px;
+    width: 200px;
+    margin: auto;
+}
+
+.container-3 {
+    background-color: black;
+    border: 4px dashed #808080;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.block-3 {
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    margin: 10px;
+}
+
+.square-1 {
+    height: 200px;
+    width: 200px;
+    border: 4px solid black;
+}
+
+.square-2 {
+    height: 200px;
+    width: 200px;
+    border: 4px solid yellow;
+    position: relative;
+    bottom: 50px;
+    left: 150px;
+}
+
+.square-3 {
+    height: 200px;
+    width: 200px;
+    border: 4px solid black;
+    position: relative;
+    bottom: 100px;
+    left: 300px;
+}
+
+.sticky-image {
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 85%;
+    left: 92%;
 }
